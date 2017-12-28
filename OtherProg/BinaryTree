@@ -1,0 +1,54 @@
+/*Implement BST from Inorder*/
+
+let inorder = [2, 1, 3],
+    post= [2, 3, 1];
+
+var BST = (function () {
+
+    function node() {
+
+        this.value = null;
+        this.left = null;
+        this.right = null;
+
+    }
+    function createTree(ino, post) {
+
+        if(ino.length === 1){
+            return ino[0];
+        }else if (ino.length === 0){
+            return null;
+        }
+        else{
+            let root = post.pop(),
+                indexinIno = ino.indexOf(root);
+
+            let treeNode = new node();
+                treeNode.value = root;
+
+            let leftIO = ino.slice(0,indexinIno),
+                rightIO = ino.slice(indexinIno+1),
+                leftPO = post.splice(0,leftIO.length),
+                rightPO = post;
+
+            treeNode.left = createTree(leftIO, leftPO);
+            treeNode.right = createTree(rightIO, rightPO);
+            return treeNode;
+        }
+    }
+
+    function CreatNewTree(ino, post){
+        let inorder = ino.concat([]),
+            postOrder = post.concat([]);
+        return createTree(inorder, postOrder);
+    }
+    return{
+        createTree : CreatNewTree
+    }
+})();
+
+// console.log(JSON.stringify(BST.createTree(inorder, post) , null, '\t'));
+
+inorder=['I' ,'D' ,'J' ,'B' ,'F' ,'A' ,'G' ,'K' ,'C' ,'H'];
+post =  ['I', 'J', 'D', 'F', 'B', 'K', 'G', 'H', 'C','A'];
+console.log(JSON.stringify(BST.createTree(inorder, post) , null, '\t'));

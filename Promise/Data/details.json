@@ -1,0 +1,158 @@
+[
+  {
+    "latestReportDate": {
+      "formatted_date": "20160501",
+      "cal_date": "00/01/2016",
+      "day_offset": -1,
+      "dim_date_key": 2457510,
+      "month": "4",
+      "year": "2016",
+      "day": "1"
+    },
+    "username": "Bijoy.ThalakkaleValappil@cdk.com",
+    "authorities": [
+      {
+        "authority": "ROLE_SERVICE"
+      },
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "email": "Bijoy.ThalakkaleValappil@cdk.com",
+    "isBetaUser": true,
+    "dealerInfo": [],
+    "name": "Bijoy",
+    "isCobaltUser": true,
+    "mappedWebids": {}
+  },
+  {
+    "latestReportDate": {
+      "formatted_date": "20160501",
+      "cal_date": "00/01/2016",
+      "day_offset": -1,
+      "dim_date_key": 2457510,
+      "month": "4",
+      "year": "2016",
+      "day": "1"
+    },
+    "username": "Vaibhav.Gupta@cdk.com",
+    "authorities": [
+      {
+        "authority": "ROLE_SERVICE"
+      },
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "email": "vaibhav.gupta@adp.com",
+    "isBetaUser": false,
+    "dealerInfo": [],
+    "name": "Vaibhav",
+    "isCobaltUser": true,
+    "mappedWebids": {}
+  },
+  {
+    "latestReportDate": {
+      "formatted_date": "20160501",
+      "cal_date": "00/01/2016",
+      "day_offset": -1,
+      "dim_date_key": 2457510,
+      "month": "4",
+      "year": "2016",
+      "day": "1"
+    },
+    "username": "Krishna.Kumar@cdk.com",
+    "authorities": [
+      {
+        "authority": "ROLE_SERVICE"
+      },
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "email": "krishna.kumat@adp.com",
+    "isBetaUser": false,
+    "dealerInfo": [],
+    "name": "Krishna",
+    "isCobaltUser": true,
+    "mappedWebids": {}
+  },
+  {
+    "latestReportDate": {
+      "formatted_date": "20160501",
+      "cal_date": "00/01/2016",
+      "day_offset": -1,
+      "dim_date_key": 2457510,
+      "month": "4",
+      "year": "2016",
+      "day": "1"
+    },
+    "username": "samir.kishore@cdk.com",
+    "authorities": [
+      {
+        "authority": "ROLE_SERVICE"
+      },
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "email": "Samir.Kishore@cdk.com",
+    "isBetaUser": true,
+    "dealerInfo": [],
+    "name": "Samir",
+    "isCobaltUser": true,
+    "mappedWebids": {}
+  },
+  {
+    "latestReportDate": {
+      "formatted_date": "20160501",
+      "cal_date": "00/01/2016",
+      "day_offset": -1,
+      "dim_date_key": 2457510,
+      "month": "4",
+      "year": "2016",
+      "day": "1"
+    },
+    "username": "Priya.RaghavaMucharla@cdk.com",
+    "authorities": [
+      {
+        "authority": "ROLE_SERVICE"
+      },
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "email": "Priya.RaghavaMucharla@cdk.com",
+    "isBetaUser": false,
+    "dealerInfo": [],
+    "name": "Priya",
+    "isCobaltUser": true,
+    "mappedWebids": {}
+  },
+  {
+    "latestReportDate": {
+      "formatted_date": "20160501",
+      "cal_date": "00/01/2016",
+      "day_offset": -1,
+      "dim_date_key": 2457510,
+      "month": "4",
+      "year": "2016",
+      "day": "1"
+    },
+    "username": "Naveenkumar.Goudar@cdk.com",
+    "authorities": [
+      {
+        "authority": "ROLE_SERVICE"
+      },
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "email": "goudarn@cobaltgroup.com",
+    "isBetaUser": false,
+    "dealerInfo": [],
+    "name": "Naveen",
+    "isCobaltUser": true,
+    "mappedWebids": {}
+  }
+]
